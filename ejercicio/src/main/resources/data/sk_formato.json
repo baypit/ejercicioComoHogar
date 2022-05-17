@@ -1,0 +1,28 @@
+{
+   "beneficios":[
+      {
+         "name":"Descuento1"
+      },
+      {
+         "name":"Descuento2"
+      },
+      {
+         "name":"Descuento3"
+      },
+      {
+         "name":"Descuento4"
+      },
+      {
+         "name":"Descuento5"
+      },
+      {
+         "name":"Descuento6"
+      },
+      {
+         "name":"Descuento7"
+      },
+      {
+         "name":"Descuento8"
+      }
+   ]
+}

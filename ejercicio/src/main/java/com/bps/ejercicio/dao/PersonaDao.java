@@ -8,7 +8,7 @@ public interface PersonaDao {
 
     List<Persona> getPersonas();
 
-   void registrar(Persona producto);
+   void registrar(Persona producto) ;
 
    void editar(Persona producto);
    

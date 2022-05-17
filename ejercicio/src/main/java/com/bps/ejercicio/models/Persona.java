@@ -11,7 +11,15 @@ import java.util.Date;
 @Table(name = "persona")
 public class Persona {
 
-    @Id
+    public String getBeneficio() {
+		return beneficio;
+	}
+
+	public void setBeneficio(String beneficio) {
+		this.beneficio = beneficio;
+	}
+
+	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="ID")
     private Integer id;
@@ -31,6 +39,9 @@ public class Persona {
      
      @Column(name="GRUPO")
      private String grupo;
+     
+     @Column(name="BENEFICIO")
+     private String beneficio;
 
 	public Integer getId() {
 		return id;
